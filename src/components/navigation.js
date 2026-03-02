@@ -28,7 +28,10 @@ const Navigation = () => {
             style={{
               color: `#0077B5`,
             }} 
-            href={`https://www.linkedin.com/in/zoe-slade/`} >
+            href={`https://www.linkedin.com/in/zoe-slade/`} 
+            target='_blank'
+            rel="noreferrer"
+            >
             <FontAwesomeIcon icon={faLinkedin}/>
           </a>
         </li>
