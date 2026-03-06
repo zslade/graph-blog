@@ -1,11 +1,11 @@
 // Nodes data
 export const nodes = [
-    { id: 1, name: "The Ultimate Abstraction", url: "/mondrian", category: "art" },
+    { id: 1, name: "The Ultimate Abstraction", url: "/the-ultimate-abstraction", category: "art" },
     { id: 2, name: "Technology", url: "", category: "technology" },
     { id: 3, name: "Maths", url: "", category: "maths" },
     { id: 4, name: "Nature", url: "", category: "nature"},
     { id: 5, name: "Other", url: "", category: "other" },
-    { id: 6, name: "The Fighting Temeraire", url: "/turner", category: "art" },
+    { id: 6, name: "The Fighting Temeraire", url: "/the-fighting-temeraire", category: "art" },
   ]
   
 //Links data
