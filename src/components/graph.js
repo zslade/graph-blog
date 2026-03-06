@@ -43,7 +43,7 @@ const Graph = ({ nodes, links }) => {
 
       let textPosition = -(desiredWidth / 2) + 15;
 
-      if (desiredWidth != 440) {
+      if (desiredWidth !== 440) {
          textPosition = -(desiredWidth / 2) + 10;
       }
 
@@ -65,7 +65,7 @@ const Graph = ({ nodes, links }) => {
       .style("stroke-width", 3);
 
     // colours for nodes
-    const color = d3.scaleOrdinal(["#d62728", "#1f77b4", "#e377c2", "#2ca02c", "#ff7f0e", "#7f7f7f"]);
+    const color = d3.scaleOrdinal(["#d62728", "#1f77b4", "#e377c2", "#2ca02c", "#ff7f0e", "#d62728"]);
 
     const node = svg.append("g")
       .selectAll("circle")

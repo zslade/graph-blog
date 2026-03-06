@@ -6,6 +6,8 @@ import {
   navLinkItem,
   navLinkText
 } from '../css/navigation.module.css';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navigation = () => {
   return (
@@ -20,6 +22,18 @@ const Navigation = () => {
           <Link to="/about" className={navLinkText}>
             About
           </Link>
+        </li>
+                <li >
+          <a     
+            style={{
+              color: `#0077B5`,
+            }} 
+            href={`https://www.linkedin.com/in/zoe-slade/`} 
+            target='_blank'
+            rel="noreferrer"
+            >
+            <FontAwesomeIcon icon={faLinkedin}/>
+          </a>
         </li>
       </ul>
     </nav>
